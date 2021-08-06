@@ -8,8 +8,8 @@ about: 'about.html'
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
             {% if page.logo %}
-                <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="https://scontent-gig2-1.xx.fbcdn.net/v/t31.18172-8/14918780_1317007978341814_2044793827933050582_o.jpg?_nc_cat=105&ccb=1-4&_nc_sid=a4a2d7&_nc_eui2=AeH4rVsK2L_-qNxuGr7mrvrJdNSCZ2fn70x01IJnZ-fvTAxnMVv2MMfLoxb68oqgdvx3vc6QlGoy9cO8AP4-BwgB&_nc_ohc=Nop4zcaJrdkAX_91OSx&_nc_ht=scontent-gig2-1.xx&oh=4e00021e71899e69a34640dc95846819&oe=6131992E" alt="Blog Logo" />
+                <a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.author.thumb }}" alt="foto do perfil de {{site.author.name}}" />
+                    <img src="{{ site.author.thumb }}" alt="foto do perfil de {{site.author.name}}" />
                 </a>
             {% endif %}
         <a class="subscribe-button icon-feed" href="{{'feed.xml' | relative_url }} ">Inscreva-se</a>
