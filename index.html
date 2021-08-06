@@ -9,17 +9,17 @@ about: 'about.html'
     <nav class="main-nav overlay clearfix">
             {% if page.logo %}
                 <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                    <img src="https://scontent-gig2-1.xx.fbcdn.net/v/t31.18172-8/14918780_1317007978341814_2044793827933050582_o.jpg?_nc_cat=105&ccb=1-4&_nc_sid=a4a2d7&_nc_eui2=AeH4rVsK2L_-qNxuGr7mrvrJdNSCZ2fn70x01IJnZ-fvTAxnMVv2MMfLoxb68oqgdvx3vc6QlGoy9cO8AP4-BwgB&_nc_ohc=Nop4zcaJrdkAX_91OSx&_nc_ht=scontent-gig2-1.xx&oh=4e00021e71899e69a34640dc95846819&oe=6131992E" alt="Blog Logo" />
                 </a>
             {% endif %}
-        <a class="subscribe-button icon-feed" href="{{'feed.xml' | relative_url }} ">Subscribe</a>
+        <a class="subscribe-button icon-feed" href="{{'feed.xml' | relative_url }} ">Inscreva-se</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
+            <h1 class="page-title">Blog de Teste</h1>
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{page.about | relative_url}}'> About me </a> {% endif %}
+                {% if page.about %} <a href='{{page.about | relative_url}}'> Sobre mim </a> {% endif %}
             </h2>
         </div>
     </div>
